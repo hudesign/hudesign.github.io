@@ -1,0 +1,16 @@
+body {
+	background-color: #91FF51;
+}
+h1 {
+	color: #AA5511;
+}
+#slogan {
+	font-style: italic;
+}
+#workingtogether{
+	font-family: sans-serif;
+}
+p {
+	font-weight: bold;
+	color: red;
+}
