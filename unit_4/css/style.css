@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Hanalei+Fill|Kirang+Haerang|Open+Sans|Oswald|Raleway');
+
+body {
+	background-color: #91FF51;
+}
+h1 {
+	font-family: 'Open Sans', cursive;
+	color: #AA5511;
+	font-size: 50px;
+}
+#slogan {
+	font-family: 'Oswald', cursive;
+	font-style: italic;
+}
+#workingtogether{
+	font-family: sans-serif;
+}
+p {
+	font-family: kirang-haerang;
+	font-weight: bold;
+	color: blue;
+}
