@@ -1,5 +1,5 @@
 
-
+* {margin:0;padding:0;box-sizing:border-box;}
 header {
     background-color: #FFED74;
     border: 1px black solid;
@@ -35,10 +35,19 @@ section {
 	border: 1px black solid;
     padding: 20px;
 }
+ul {
+    list-style: none;
+}
+#intro {
+	background:url(../images/biogasplant_hero1_red.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 70vh;
+	font-size: 2em;
+	padding: 2em;
+}
 
-
-
-
+/*
 For the background colors, use the following colors: 
 - header = #FFED74
 - nav = #E8C66A
@@ -46,7 +55,7 @@ For the background colors, use the following colors:
 - article = #E89C6C
 - footer = #FF957E
 - div / section = #FFE2B8
-
+*/
 
 
 
