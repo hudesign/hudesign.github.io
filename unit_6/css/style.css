@@ -12,26 +12,42 @@ nav {
     padding: 20px;
 }
 
-#two_column {
+#featured_content {
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-#left {
+#featured_articles {
 	background-color: #E582A2;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
-	width: 62%;
+	width: 60%;
 }
 
-#right {
+#featured_companies {
 	background-color: #E55B88;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 30%;
+	width: 13%;
+}
+
+#featured_jobs {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 13%;
+}
+
+#featured_events {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 13%;
 }
 
 .clearfix:after {
