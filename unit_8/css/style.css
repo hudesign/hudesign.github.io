@@ -1,0 +1,165 @@
+
+* {margin:0;padding:0;box-sizing:border-box;}
+header {
+    background-color: #FFED74;
+    border: 5px red solid;
+    padding: 20px;
+}
+
+
+#nav_user {
+	background-color: #E8C66A;
+	border: 1px blue solid;
+    padding: 20px;
+    float: none;
+}
+
+#nav_navigation {
+	background-color: #E8C66A;
+	border: 1px blue solid;
+    padding: 20px;
+	float: none;
+}
+
+#logo {
+	background-color: #FFB7CF;
+}
+
+body {
+	width: 100%
+}
+
+#search_hero_image {
+	background:url(../images/biogasplant_hero1_red.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 70vh;
+	font-size: 2em;
+	padding: 2em;
+}
+
+#featured_content_section {
+	background-color: #FFB7CF;
+	border: 10px green solid;
+	padding: 20px;
+	width: 100%
+}
+
+#featured_articles {
+	background-color: #E582A2;
+	border: 10px black solid;
+	padding: 20px;
+	float: left;
+	width: 60%;
+}
+
+#featured_asides {
+	background-color: #E77B88;
+	border: 10px black solid;
+	padding: 20px;
+	float: right;
+	width: 33%;
+}
+
+#featured_companies {
+	background-color: #E55B88;
+	border: 10px black solid;
+	padding: 20px;
+	float: right;
+	width: 33%;
+}
+
+#featured_jobs {
+	background-color: #E55B88;
+	border: 10px yellow solid;
+	padding: 20px;
+	float: right;
+	width: 33%;
+}
+
+#featured_events {
+	background-color: #E55B88;
+	border: 10px indigo solid;
+	padding: 20px;
+	float: right;
+	width: 33%;
+}
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #888;
+	border: 1px black solid;
+    padding: 20px;
+}
+ul {
+    list-style: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+	#nav_navigation {
+		display: none;
+	}
+
+
+	#featured_companies {
+	float: none;
+	width: 60%;
+	}
+
+	#featured_jobs {
+		float: none;
+		width: 60%;
+	}
+
+	#featured_events {
+		float: none;
+		width: 60%;
+
+
+
+
+}
+
+
+
+/*
+For the background colors, use the following colors: 
+- header = #FFED74
+- nav = #E8C66A
+- aside = #FFC675
+- article = #E89C6C
+- footer = #FF957E
+- div / section = #FFE2B8
+*/
+
+
+
