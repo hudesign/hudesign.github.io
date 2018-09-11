@@ -18,3 +18,7 @@ p {
 	text-decoration: underline; 
 	text-transform: uppercase;
 }
+
+img {
+	size: 100%;
+}
