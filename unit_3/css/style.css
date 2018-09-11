@@ -7,10 +7,14 @@ h1 {
 #slogan {
 	font-style: italic;
 }
-#workingtogether{
-	font-family: sans-serif;
-}
+
 p {
-	font-weight: bold;
+	background-color: green;
 	color: red;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline; 
+	text-transform: uppercase;
 }
