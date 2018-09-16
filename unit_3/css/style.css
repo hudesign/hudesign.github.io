@@ -1,24 +1,56 @@
 body {
-	background-color: #91FF51;
+	background-color: rgb(0, 255, 0);
 }
+
+
 h1 {
-	color: #AA5511;
+	color: rgb(0, 0, 0);
 }
 #slogan {
 	font-style: italic;
+	background-color: rgb(0, 255, 0);
 }
 
 p {
-	background-color: green;
-	color: red;
+	background-color: rgb(0, 200, 0);
+	color: rgb(0, 0, 0);
 	font-size: 16px;
-	font-style: italic;
+	font-style: normal;
 	font-weight: bold;
-	text-align: center;
-	text-decoration: underline; 
-	text-transform: uppercase;
+	text-align: left;
+	text-decoration: none; 
+	text-transform: none;
 }
 
-img {
-	size: 10%;
+ul {
+    text-align: left;
+    list-style-type: ;
 }
+
+/*
+Now, it’s time to style your HTML.
+Consider the selectors you have available:
+
+body
+h1
+p
+ul
+li
+img
+#slogan
+
+Play around with the CSS properties you’ve 
+learned thus far and adjust your site however 
+you see fit.
+
+background
+background-color
+color
+font-size
+font-style
+font-weight
+text-align
+text-decoration
+text-transform
+*/
+
