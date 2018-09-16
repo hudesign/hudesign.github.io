@@ -1,22 +1,100 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Hanalei+Fill|Kirang+Haerang|Open+Sans|Oswald|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar|Poppins|Roboto');
 
 body {
-	background-color: #91FF51;
+	background-color: rgb(0, 255, 0);
 }
+
+
 h1 {
-	font-family: 'Open Sans', cursive;
-	color: #AA5511;
-	font-size: 50px;
+	color: rgb(0, 0, 0);
+	font-family: 'Roboto', sans-serif;
 }
+
 #slogan {
-	font-family: 'Oswald', cursive;
 	font-style: italic;
+	background-color: rgb(0, 255, 0);
+	font-family: 'Mukta Malar', sans-serif;
 }
-#workingtogether{
-	font-family: sans-serif;
+
+
+h3 {
+	font-family: 'Mukta Malar', sans-serif;
 }
+
+
 p {
-	font-family: kirang-haerang;
+	background-color: rgb(0, 200, 0);
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	font-style: normal;
 	font-weight: bold;
-	color: blue;
+	text-align: left;
+	text-decoration: none; 
+	text-transform: none;
+	font-family: 'Poppins', sans-serif;
 }
+
+
+ul {
+    text-align: left;
+    list-style-type: ;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+
+Pull up your HTML and CSS from the Unit 3 Project. 
+In this unit you're going to set the fonts for your webpage. 
+This is done in the CSS by using 
+the property "font-family" on the selectors you wish to adjust.
+
+Once you’ve chosen two elements you’d like to give new fonts, 
+go to www.google.com/fonts and think about what kind of typography 
+will best communicate your business's identity to your target customers.
+
+To add this new typeface to your website, 
+scroll down the page to section 3 (blue box in the image below), 
+click on the tab that says @import, and copy the code 
+(highlighted in the red in the image below) 
+to the very top of your external style sheet.
+
+Do not copy and paste the <style> tags, as these are ways 
+to create inline styling in your HTML.
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar|Poppins|Roboto');
+</style>
+
+Specify in CSS
+Use the following CSS rules to specify these families:
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Mukta Malar', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+Advanced: If you’d like to go above and beyond, 
+try adjusting your fonts even further by adjusting 
+their letter-spacing, word-spacing, and line-height.
+
+Be careful though, a little word and letter spacing 
+goes a long way. keep it subtle for maximum readability!
+
+Step 4: Double-check!
+Review the checklist below to make sure your project is 
+ready to submit. By this unit, all of your content should 
+be on the page, and your HTML should be complete. You can 
+check your HTML for errors using 
+The Validator. https://validator.w3.org/
+
+I’ve validated my HTML and asked my mentor questions about any errors
+All child elements are correctly nested inside their parent elements
+I haven’t used too many different fonts on my page (2 or fewer is recommended)
+I’ve overwritten all default font styles with my own css
+My CSS in the correct order (fonts, element selectors, classes, id's)
+I understand that I haven’t learned layout yet, but soon my page will start taking shape
+
+
+
+*/
+
