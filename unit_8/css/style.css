@@ -1,99 +1,74 @@
 
 * {margin:0;padding:0;box-sizing:border-box;}
-header {
-    background-color: #FFED74;
-    border: 5px red solid;
-    padding: 20px;
-}
-
-
-#nav_user {
-	background-color: #E8C66A;
-	border: 1px blue solid;
-    padding: 20px;
-    float: none;
-}
-
-#nav_navigation {
-	background-color: #E8C66A;
-	border: 1px blue solid;
-    padding: 20px;
-	float: none;
-}
-
-#logo {
-	background-color: #FFB7CF;
-}
 
 body {
-	width: 100%
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    width: 100%;
+	background-color: rgb(0,255,0);
+    color: black;
+    line-height: 1.5;
+	border: 0px black solid;
+    padding: .8em;
 }
 
-#search_hero_image {
-	background:url(../images/biogasplant_hero1_red.jpg);
+h1 {
+    font-size: 1.5em;
+}
+
+header {
+    width: 100%;
+    background-color: #FFED74;
+    border: .1em black solid;
+    padding: .5em;
+}
+
+nav {
+    width: 100%;
+	background-color: #E8C66A;
+	border: .1em black solid;
+    padding: .5em;
+    margin: .5em 0;
+    float: right;
+}
+
+img {
+    width: 100%;
+    border: .1em black solid; 
+    padding: .2em;
+
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+}
+
+footer {
+    width: 100%;
+	background-color: #FF957E;
+	border: .2em black solid;
+    padding: .2em;
+}
+
+#hero_div {
+    width: 100%;
+	background:url(../images/biogasplant_hero_2.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	height: 70vh;
 	font-size: 2em;
 	padding: 2em;
+	background-color: #888;
+	border: .1em black solid;
+    padding: .2em;
 }
 
-#featured_content_section {
-	background-color: #FFB7CF;
-	border: 10px green solid;
-	padding: 20px;
-	width: 100%
-}
-
-#featured_articles {
-	background-color: #E582A2;
-	border: 10px black solid;
-	padding: 20px;
-	float: left;
-	width: 60%;
-}
-
-#featured_asides {
-	background-color: #E77B88;
-	border: 10px black solid;
-	padding: 20px;
-	float: right;
-	width: 33%;
-}
-
-#featured_companies {
-	background-color: #E55B88;
-	border: 10px black solid;
-	padding: 20px;
-	float: right;
-	width: 33%;
-}
-
-#featured_jobs {
-	background-color: #E55B88;
-	border: 10px yellow solid;
-	padding: 20px;
-	float: right;
-	width: 33%;
-}
-
-#featured_events {
-	background-color: #E55B88;
-	border: 10px indigo solid;
-	padding: 20px;
-	float: right;
-	width: 33%;
-}
-
-
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+/*
+section {
+	background-color: #888;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 article {
@@ -106,59 +81,181 @@ aside {
 	background-color: #FFC675;
 	border: 1px black solid;
     padding: 20px;
+    float: right;
+}
+*/
+
+
+
+
+#two_column {
+    background-color: #FFB7CF;
+    border: .2em black solid;
+    padding: .4em;
+    width: 100%
 }
 
-footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-    padding: 20px;
+#left {
+    background-color: #E582A2;
+    border: 1% black solid;
+    padding: 2%;
+    float: left;
+    width: 62%
 }
 
-section {
-	background-color: #888;
-	border: 1px black solid;
-    padding: 20px;
+#right {
+    background-color: #E55B88;
+    border: 1% black solid;
+    padding: 2%;
+    float: right;
+    width: 30%
 }
-ul {
-    list-style: none;
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 
 @media only screen and (max-width: 900px) {
-	#nav_navigation {
-		display: none;
-	}
+body {
+    font-size: 18px;
+}
 
+#navigation_top {
+    font-size: .9em
+}
 
-	#featured_companies {
-	float: none;
-	width: 60%;
-	}
+#two_column {
+    width: 100%
+}
 
-	#featured_jobs {
-		float: none;
-		width: 60%;
-	}
+#left, #right {
+    float: none;
+    width: auto;
+    padding: .2em;
+    margin: 1em;
+    font-size: 1em;
+    text-align: center;
+  }
 
-	#featured_events {
-		float: none;
-		width: 60%;
+  h1, h2, h3 {
+    text-align: left;
+    font-size: 26px;
+  }
 
+ 
 
+@media only screen and (max-width: 500px) {
 
+    body {
+        font-size: 14px;
+    }
 
+    #left, #right {
+        float: none;
+        width: auto;
+        font-size: .9em;
+    }
+
+    h1, h2, h3, nav {
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+   
+    p, ul {
+    margin: 1.8em .6em 0;
+    }
+
+    li {
+    width: 100%;
+    outline-width: .5em;
+    padding: .1em;
+    height: 2em;
+    line-height: 1em;
+    text-align: center;
+    }
 }
 
 
 
 /*
-For the background colors, use the following colors: 
-- header = #FFED74
-- nav = #E8C66A
-- aside = #FFC675
-- article = #E89C6C
-- footer = #FF957E
-- div / section = #FFE2B8
+UNIT 8...
+
+Open up your HTML and CSS files on Sublime Text and 
+save them to the unit_8 subfolder of your local 
+GitHub repository.
+
+Next, in your HTML, add the following meta-tag 
+inside your element:
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+Step 2: fluid layout
+Swap out your fixed-width layout for a fluid layout.
+
+Find elements that you want to adjust with the 
+browser size. Typically, this means block elements 
+for which you’ve determined a specific width, like 
+semantic elements, divs, and images. Switch their 
+widths from pixels to percentages.
+
+If you want an item to take up the entire width 
+of the screen, set it to 100%. When adjusting 
+nested elements, keep in mind that their percentages 
+are proportional to the size of their parent element. 
+Meaning, if you have a element that you’ve set to 
+take up 80% of the page, and you want an image 
+nested inside that to take up its full width, 
+you would set the image at 100%.
+
+
+Also, remember to adjust the padding and margin 
+of your selected elements, too.
+
+Once you’ve switched your selected elements 
+from pixels to percentages, save your work and 
+render it in the browser. Start with your browser 
+set at a typical laptop width, like 1280px. 
+Look for any areas where your layout doesn’t match 
+your original design and see if you can 
+adjust appropriately.
+
+Step 3: NEXT, make use of Ems.
+
+
+Step 4: Media Queries
+Once you’re satisfied with your fluid layout at a 
+typical laptop width, shrink the browser to look for 
+your first breakpoint (e.g., the navigation bar breaks 
+into multiple lines, columns get too narrow, 
+headlines look cramped, images become 
+too small, etc.).
+
+Identify the pixel width at this point 
+using Chrome’s Inspect Element feature. 
+Then, using this pixel width, create a media 
+query at the bottom of your CSS to adjust your 
+layout and fix the breakpoint.
+
+Once it’s fixed, resume shrinking the browser to 
+seek your second breakpoint, and repeat the fixing 
+process. You should expect to need about 2 or 3 media 
+queries to make your page work properly at all sizes.
+
+Think of it this way—you’ve defined the CSS that 
+desktop browsers will render at the top of your 
+stylesheet; now you need to include the CSS that 
+your site will need to display well on other 
+types of screens.
+
 */
 
 

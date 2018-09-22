@@ -1,10 +1,20 @@
 
 * {margin:0;padding:0;box-sizing:border-box;}
+
+
+body {
+	background-color: rgb(0,255,0);
+	border: 0px black solid;
+    padding: 20px;
+}
+
+
 header {
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
 }
+
 
 nav {
 	background-color: #E8C66A;
@@ -12,64 +22,15 @@ nav {
     padding: 20px;
 }
 
-#featured_content {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
+img {
+    width: 1000px;
 }
 
-#featured_articles {
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 60%;
+
+ul {
+    list-style: none;
 }
 
-#featured_companies {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 13%;
-}
-
-#featured_jobs {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 13%;
-}
-
-#featured_events {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 13%;
-}
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-    padding: 20px;
-}
-
-aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-    padding: 20px;
-}
 
 footer {
 	background-color: #FF957E;
@@ -77,31 +38,196 @@ footer {
     padding: 20px;
 }
 
-section {
-	background-color: #888;
-	border: 1px black solid;
-    padding: 20px;
-}
-ul {
-    list-style: none;
-}
-#intro {
-	background:url(../images/biogasplant_hero1_red.jpg);
+
+#hero {
+	background:url(../images/biogasplant_hero_2.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	height: 70vh;
 	font-size: 2em;
 	padding: 2em;
+	background-color: #888;
+	border: 1px black solid;
+    padding: 20px;
 }
 
+/* 
+section {
+    width: 700px;
+    background-color: #888;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    width: 700px;
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    width: 700px;
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+*/
+
+
+
+
+
+
+
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+    width: 850px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 400px
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 400px
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
 /*
-For the background colors, use the following colors: 
-- header = #FFED74
-- nav = #E8C66A
-- aside = #FFC675
-- article = #E89C6C
-- footer = #FF957E
-- div / section = #FFE2B8
+UNIT 6...
+
+Choose two elements that you want to have next to each other.
+
+Give the first element the ID “left” and the second element 
+the ID “right.”
+
+If you haven’t already, nest those two elements 
+inside a parent element.
+
+Give that parent element the ID “two_column” and 
+the class “clearfix”.
+
+This additional HTML should look something like this:
+
+<section id="two_column" class="clearfix">
+    <aside id="left">
+        <p>ASIDE<p>
+        <p>Lorem Ipsum…</p>
+    </aside>
+    <article id="right">
+        <p>ARTICLE</p>
+        <p>Lorem Ipsum…</p>
+        <p>Lorem Ipsum…</p>
+    </article>
+</section>
+
+
+You’re going to use CSS to give your new elements some 
+style and turn them into a two column layout.
+
+Give the elements you’re putting into columns the following 
+CSS so that you can easily see them when you render your 
+code in the browser:
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+add the following code to your 
+two elements:
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+
+You can adjust these number if you 
+want your objects to be different sizes. 
+Just keep in mind that the total amount 
+of space — including borders, paddings, 
+and margins — is 100%, and you'll probably 
+want a little extra space for padding, margin, 
+or just room for error (we left 8% of the space open).
+
+
+Congrats! You have columns!
+
+Unfortunately, you’ll also notice that 
+the wrapper within which they’re nested has 
+collapsed. This is because, once floated, 
+elements that are nested inside a parent element 
+no longer add to the height of that parent element.
+
+Let’s fix this with the .clearfix method!
+
+
+In step 1, you should have given your wrapper 
+element the class “clearfix” in your HTML. 
+If you haven’t done that yet, do it now, 
+and make sure to save the change.
+
+Next, in your CSS file, add the .clearfix method:
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
 */
 
 

@@ -16,6 +16,9 @@ h1 {
 	font-family: 'Mukta Malar', sans-serif;
 }
 
+img {
+	width: 1000px;
+}
 
 h3 {
 	font-family: 'Mukta Malar', sans-serif;
@@ -42,6 +45,8 @@ ul {
 }
 
 /*
+
+UNIT 4...
 
 Pull up your HTML and CSS from the Unit 3 Project. 
 In this unit you're going to set the fonts for your webpage. 
